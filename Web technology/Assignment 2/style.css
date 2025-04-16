@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+    .body {
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+ul.a {
+  list-style-type: circle;
+  text-align: center-left;
+  font-weight: 200 ;
+   font-size: 20px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.background {
+    background: #33cc33;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.image-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+    border-radius: 50px;
+}
+
+.nav-list li {
+    list-style: none;
+	font-size: 20px;
+    padding: 26px 30px;
+    padding: 10px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.firstsection {
+    background-color: white-space;
+    height: 50px;
+}
+
+.secondsection {
+    background-color: blue;
+    height: 400px;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+}
+
+.firsthalf {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 30px;
+	text-align: center;
+	color: #33cc33;
+}
+.text-main {
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: 40px;
+	text-align: center;
+	color: #33cc33;
+}
+
+.text-small {
+	font-family: 'Roboto', serif;
+    font-weight: 200 ;
+    font-size: 20px;
+	text-align: center-left;
+  
+}
+.text-middle {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 25px;
+	text-align: center-left;
+	color: #00000;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+.section-Left {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0px 65px;
+}
+
+.thumbnail img {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+.center {
+    text-align: center;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.rightnav {
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+}
+
+#search {
+    box-sizing: border-box;
+    width: 70%;
+    padding: 8px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.btn-sm {
+    padding: 8px 20px;
+    margin: 7px 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #33cc33;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+	padding: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.containernew {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold; 
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+	 
+  }
+}
+
+button {
+  background-color: #33cc33;
+  color: white;
+  font-size :25px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #33cc33;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: bottom;
+  width: 100%;
+}
+
+footer nav ul {
+  list-style: none;
+  font-size: 20px;
+  padding: 26px 30px;
+  padding: 10px;
+}
+
+footer nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.contact-info {
+	margin-top: 20px;
+}
+.contact-info ul {
+	list-style: none;
+	padding: 0;
+}
+.contact-info li {
+	font-size: 1.1em;
+	margin-bottom: 10px;
+}
+ .contact-form {
+      background-color: #33cc33;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+      width: 300px;
+    }
+    .contact-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+    .contact-form label {
+		color: white;
+		display: block;
+		font-size: 20px;
+		margin-bottom: 5px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    .contact-form textarea {
+      height: 100px;
+      resize: none;
+    }
+    .contact-form button {
+      background-color: #33cc33;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      width: 100%;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .contact-form button:hover {
+      background-color: #33cc33;
+    }
+	.tutorial {
+      background-color: #fff0f5;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .tutorial iframe {
+      width: 100%;
+      height: 315px;
+      margin-top: 15px;
+      border-radius: 10px;
+    }
